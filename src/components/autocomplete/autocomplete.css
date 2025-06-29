@@ -1,0 +1,40 @@
+.autocomplete-container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.max-hints-container {
+    display: flex;
+    margin-left: 50px;
+    height: 30px;
+}
+.input {
+    width: 363px;
+    height: 26px;
+}
+
+.hint-container {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #000;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 370px;
+}
+
+.hint-short-name {
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+}
+.hint-full-name {
+    /*width: 90px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+}
